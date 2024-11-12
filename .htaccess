@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule ^bl-content/workspaces/.*$ - [R=200,L]
+</IfModule>
